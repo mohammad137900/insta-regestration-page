@@ -1,0 +1,84 @@
+body{
+    background-color: #eeee;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+    font-size: 16px;
+}
+ a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #8c8787ee;
+}
+.container{
+    width: 950px;
+    
+    
+    margin: 0 auto;
+}
+.main{
+    margin-top:60px;
+   
+}
+.main-left, .main-right{
+    
+    display: inline-block;
+    
+    text-align: center;
+    vertical-align: top;
+}
+.main-left{
+    width: 59%;
+    margin-top: 50px;
+}
+.main-right{
+    width: 40%;
+}
+.rigester-form,.login-page{
+    background-color: #ffffff;
+    border: 1px solid rgb(158, 155, 155);
+    padding: 30px;
+
+}
+.rigester-form form input{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    background-color: #f9f6f6ee;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #eeee;
+    margin-top: 7px;
+
+}
+.rigester-form form input:last-of-type{
+    background-color: blue;
+    color: #eeee;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.main-right div{
+    margin-bottom: 10px;
+
+}
+.app-image img{ 
+    width: 150px;  
+
+}
+.app-image{
+    margin-bottom: 30px;
+}
+.footer{
+    text-align: center;
+    
+}
+.footer a{
+    margin-right: 10px;
+}
+.footer div{
+    margin-bottom: 10px;
+
+}
